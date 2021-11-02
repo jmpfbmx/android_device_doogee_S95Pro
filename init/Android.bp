@@ -15,9 +15,9 @@
 //
 
 cc_library_static {
-    name: "libinit_wilhye",
+    name: "libinit_S95Pro",
     recovery_available: true,
-    srcs: ["init_wilhye.cpp"],
+    srcs: ["init_S95Pro.cpp"],
     whole_static_libs: ["libbase"],
     include_dirs: [
         "system/core/base/include",

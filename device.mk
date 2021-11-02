@@ -1,5 +1,5 @@
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/umidigi/wilhye/wilhye-vendor.mk)
+$(call inherit-product-if-exists, vendor/doogee/S95Pro/S95Pro-vendor.mk)
 
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_props.mk
@@ -13,7 +13,7 @@ PRODUCT_AAPT_CONFIG := xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
 # A/B
@@ -96,8 +96,8 @@ PRODUCT_COPY_FILES += \
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.enableswap \
-    init.mt6765.rc \
-    fstab.mt6765 \
+    init.mt6779.rc \
+    fstab.mt6779 \
     init.safailnet.rc
 
 # Shims

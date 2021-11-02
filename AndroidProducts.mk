@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mtkosp_wilhye.mk
+    $(LOCAL_DIR)/mtkosp_S95Pro.mk
 
 
 COMMON_LUNCH_CHOICES := \
-    mtkosp_wilhye-eng \
-    mtkosp_wilhye-user \
-    mtkosp_wilhye-userdebug
+    mtkosp_S95Pro-eng \
+    mtkosp_S95Pro-user \
+    mtkosp_S95Pro-userdebug

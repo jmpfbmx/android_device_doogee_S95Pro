@@ -7,8 +7,8 @@
 
 set -e
 
-DEVICE=wilhye
-VENDOR=umidigi
+DEVICE=S95Pro
+VENDOR=doogee
 
 INITIAL_COPYRIGHT_YEAR=2019
 

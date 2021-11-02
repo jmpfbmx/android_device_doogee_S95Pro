@@ -1,8 +1,8 @@
 [
     {
         "remote":       "github",
-        "repository":   "jmpfbmx/android_vendor_umidigi_wilhye",
-        "target_path":  "vendor/umidigi/wilhye",
-        "revision":     "r10.0"
+        "repository":   "jmpfbmx/android_vendor_doogee_S95Pro",
+        "target_path":  "vendor/doogee/S95Pro",
+        "revision":     "mtkosp-1.0"
     }
 ]

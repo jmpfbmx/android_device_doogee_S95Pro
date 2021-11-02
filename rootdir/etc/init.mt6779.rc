@@ -17,7 +17,7 @@ on init
     # Custom overrides that need to happen right on boot
     # Override vendor fstab
     # We only need it to be overridden before things are mounted
-    mount none /system/etc/fstab.mt6765 /vendor/etc/fstab.mt6765 bind
+    mount none /system/etc/fstab.mt6779 /vendor/etc/fstab.mt6779 bind
 
     # A wretched solution for incoming calls
     mount none /system/lib64/libmtk-ril.so /vendor/lib64/libmtk-ril.so bind

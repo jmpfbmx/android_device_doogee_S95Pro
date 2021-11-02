@@ -19,25 +19,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit from UMIDIGI Power device
-$(call inherit-product, device/umidigi/wilhye/device.mk)
+# Inherit from DOOGEE S95 Pro device
+$(call inherit-product, device/doogee/S95Pro/device.mk)
 
 # Inherit some common MTKOSP stuff.
 $(call inherit-product, vendor/mtkosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-MTKOSP_BUILDTYPE := OFFICIAL
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_RELEASE_NAME := UMIDIGI Power
-PRODUCT_BRAND := UMIDIGI
-PRODUCT_DEVICE := wilhye
-PRODUCT_MANUFACTURER := UMIDIGI
-PRODUCT_MODEL := Power
-PRODUCT_NAME := mtkosp_wilhye
+PRODUCT_RELEASE_NAME := DOOGEE S95 Pro
+PRODUCT_BRAND := DOOGEE
+PRODUCT_DEVICE := S95Pro
+PRODUCT_MANUFACTURER := DOOGEE
+PRODUCT_MODEL := S95Pro
+PRODUCT_NAME := mtkosp_S95Pro
 
-PRODUCT_GMS_CLIENTID_BASE := android-agold
+PRODUCT_GMS_CLIENTID_BASE := android-DOOGEE
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="wilhye" \
-    PRODUCT_NAME="wilhye"
+    TARGET_DEVICE="S95Pro" \
+    PRODUCT_NAME="S95Pro"
