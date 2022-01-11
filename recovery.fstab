@@ -11,8 +11,6 @@
 /nvcfg              ext4      /dev/block/platform/bootdevice/by-name/nvcfg                          flags=display="Nvcfg";
 /persist            ext4      /dev/block/platform/bootdevice/by-name/persist                        flags=display="Persist";
 /persist_image      emmc      /dev/block/platform/bootdevice/by-name/persist                        flags=display="Persist image";backup=1;flashimg=1;
-/externdevice*      auto      auto                                                                  flags=display="Externdevice*";logical;
-/11200000.usb3_xhci*auto      vfat                                                                  flags=display="11200000.usb3_xhci*";logical;
 /persistent         emmc      /dev/block/platform/bootdevice/by-name/frp                            flags=display="Persistent";
 /nvram              emmc      /dev/block/platform/bootdevice/by-name/nvram                          flags=display="Nvram";
 /proinfo            emmc      /dev/block/platform/bootdevice/by-name/proinfo                        flags=display="Proinfo";
@@ -47,3 +45,5 @@
 /dtbo               emmc      /dev/block/platform/bootdevice/by-name/dtbo                           flags=display="Dtbo";backup=1;flashimg=1;
 /otp                emmc      /dev/block/platform/bootdevice/by-name/otp                            flags=display="Otp";
 /vbmeta             emmc      /dev/block/platform/bootdevice/by-name/vbmeta                         flags=display="Vbmeta";
+/devices/platform/externdevice* auto auto defaults voldmanaged=sdcard1:auto,encryptable=userdata
+/devices/platform/11200000.usb3_xhci* auto vfat defaults voldmanaged=usbotg:auto
